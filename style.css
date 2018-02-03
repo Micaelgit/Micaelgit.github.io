@@ -4,23 +4,24 @@ h1 {
 }
 h2 {
     font-size: 111pt;
-    text-align: center
+    text-align: center;
     height: 200px;
     line-height: 300px;
-    text-align: center;
+    
   
 }
 h3 {
     font-size: 60pt;
     text-align: center;
     height: 200px;
-    line-height: 200px;
-    text-align: center;
+    line-height: 100px;
+    
 }
 h4 {
     font-size: 60pt;
     text-align: center;
     height: 200px;
+    line-height: 100px;
 }
 a:link {
     color: black;
