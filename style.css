@@ -1,0 +1,29 @@
+h1 {
+    font-size: large;
+    text-align: right
+}
+h2 {
+    font-size: 111pt;
+    text-align: center
+    height: 200px;
+    line-height: 300px;
+    text-align: center;
+  
+}
+h3 {
+    font-size: 60pt;
+    text-align: center;
+    height: 200px;
+    line-height: 350px;
+    text-align: center;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+ 
