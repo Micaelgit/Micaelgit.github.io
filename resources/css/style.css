@@ -49,7 +49,6 @@ h1 {
     background: linear-gradient(to right, #eea849, #f46b45);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    background-position: center;
     height: 100vh;
     color: #000;
 }
@@ -115,6 +114,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/car.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
