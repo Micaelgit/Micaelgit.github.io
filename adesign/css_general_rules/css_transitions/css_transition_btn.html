@@ -9,28 +9,23 @@
 </head>
 
 <body>
-    <h1>css_general_basic_button</h1>
+    <h1>css_transition_btn</h1>
+    
     <code>
-        code HTML
-        <a class="btn btn-full" href="#">I’m hungry</a>
-    </code>
-
-    <code>
-        .btn {
+    // example last line of this code snippet  
+    
+    .btn:link,
+    .btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-     }
-
-     .btn-full:link,
-    .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
-    margin-right: 15px;
+    transition: background-color 0.4s, border 0.4s, color 0.4s;
 }
+
+    it depends of the hover & active states to appear on screen.
+
     </code>
 </body>
 
