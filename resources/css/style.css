@@ -20,7 +20,7 @@ html {
     background: #fff;
     color: #555;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
@@ -43,8 +43,8 @@ h1 {
     font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    word-spacing: 5px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
 
 .chapter {
@@ -61,7 +61,7 @@ h1 {
 
 .chapter h1 {
     position: relative;
-    width: 1140px;
+    width: 370px;
     top: 20%;
     left: 100%;
     transform: translate(-50%, -50%);
@@ -118,10 +118,11 @@ h1 {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/car.jpg);
-    background-size: cover; 
-    background-position: top;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     height: 99vh;
+    width: 414px;
 }
 
 .hero-text-box {
