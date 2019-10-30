@@ -161,3 +161,67 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+/* ----------------------------------------------------------- */
+
+/* MEDIA QUERIES */
+
+/* ----------------------------------------------------------- */
+
+@media only screen and (max-width: 415px) {
+    h1 {
+        margin-top: 0;
+        margin-bottom: 7px;
+        color: greenyellow;
+        font-size: 70%;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 5px;
+        position: absolute;
+        width: 400px;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+/* ----------------------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------------------- */
+
+    .logo {
+        height: 30px;
+        width: auto;
+        float: right;
+        margin-top: 10px;
+    }
+    
+    .main-nav {
+        float: left;
+        list-style-type: none;
+        margin-top: 35px;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        border-bottom: 2px solid transparent;
+        padding: 8px 0;
+        transition: border-bottom 0.2s;
+    }
+    
+    .main-nav li a:hover,
+    .main-nav li a:active {
+        border-bottom: 2px solid #e67e22;
+    }
+}
