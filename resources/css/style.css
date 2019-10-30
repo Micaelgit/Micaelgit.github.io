@@ -41,6 +41,28 @@ h1 {
     word-spacing: 5px;
 }
 
+.chapter {
+    background: #f46b45;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #000;
+}
+
+.chapter h1 {
+    position: relative;
+    width: 1140px;
+    top: 20%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
 /* -------- BUTTONS -------- */
 
 .btn:link,
