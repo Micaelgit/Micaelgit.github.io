@@ -49,7 +49,7 @@ h1 {
 
 h2 {
     margin-top: 50px;
-    margin-bottom: 7px;
+    margin-bottom: 50px;
     color: #555;;
     font-size: 240%;
     font-weight: 300;
@@ -58,17 +58,17 @@ h2 {
     word-spacing: 2px;
 }
 
-.chapter-projects {
-    background: #f46b45;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eea849, #f46b45);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eea849, #f46b45);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    height: 100vh;
-    color: #000;
+h3 {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    color: rgba(112, 111, 111, 0.6);
+    font-size: 150%;
+    font-weight: 700;
+    letter-spacing: 7px;
+    word-spacing: 2px;
 }
+
+
 
 .chapter h1 {
     position: relative;
@@ -131,7 +131,6 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/car.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     height: 100vh;
     
     
@@ -182,13 +181,24 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* ----------------------------------------------------------- */
+
 /* PROJECTS */
+
+/* ----------------------------------------------------------- */
+.chapter-projects {
+    /* background: #c7c4c4; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/intersection.png);
+    height: 100vh;
+    color: #000;
+}
+
 .plan-box {
     background-color: #555;
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 0 2px 2px #944a33;
+    box-shadow: 0 4px 10px #727272;
 }
 
 .plan-box div {
@@ -197,7 +207,7 @@ header {
 }
 
 .plan-box div:first-child {
-    background-color: #ebebeb;
+    background-color: #e9d9c3;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
