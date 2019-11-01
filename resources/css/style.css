@@ -58,7 +58,7 @@ h2 {
     word-spacing: 2px;
 }
 
-.chapter {
+.chapter-projects {
     background: #f46b45;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #eea849, #f46b45);
@@ -182,3 +182,36 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* PROJECTS */
+.plan-box {
+    background-color: #555;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+
+.plan-box ul {
+    list-style-type: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
