@@ -1,5 +1,3 @@
-
-
 /* ----------------------------------------------------------- */
 
 /* BASIC SETUP */
@@ -12,18 +10,18 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background: #fff;
     color: #555;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
-.chapter {
-
-}
+.chapter {}
 
 /* ----------------------------------------------------------- */
 
@@ -39,7 +37,8 @@ html {
 h1 {
     margin-top: 0;
     margin-bottom: 7px;
-    color: #555;;
+    color: #555;
+    ;
     font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
@@ -50,7 +49,8 @@ h1 {
 h2 {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #555;;
+    color: #555;
+    ;
     font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
@@ -67,8 +67,6 @@ h3 {
     letter-spacing: 7px;
     word-spacing: 2px;
 }
-
-
 
 .chapter h1 {
     position: relative;
@@ -132,8 +130,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    
-    
 }
 
 .hero-text-box {
@@ -142,7 +138,6 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 
 .logo {
@@ -186,12 +181,12 @@ header {
 /* PROJECTS */
 
 /* ----------------------------------------------------------- */
+
 .chapter-projects {
     /* background: #c7c4c4; */
-    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9) ), url(img/stone.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(img/stone.png);
     height: 100vh;
     color: #999;
-
 }
 
 .plan-box {
@@ -217,7 +212,6 @@ header {
     text-align: center;
     border: 0;
 }
-
 
 .plan-box ul {
     list-style-type: none;
