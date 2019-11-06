@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Omnifood</title>
+
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/animate.css">
@@ -14,7 +16,16 @@
     <link rel="stylesheet" href="resources/css/queries.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
+    <title>Omnifood</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+    <link rel="manifest" href="resources/favicons/site.webmanifest">
+    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -87,6 +98,9 @@
     </section>
 
     <section class="section-meals">
+        <div>
+            <h3>.</h3>
+        </div>
         <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
@@ -280,7 +294,7 @@
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
-        <div class="row" >
+        <div class="row">
             <!-- first card -->
             <div class="col span-1-of-3">
                 <div class="plan-box js--wp-4">
@@ -374,7 +388,7 @@
         <!-- row for the form -->
         <div class="row">
             <!-- form -->
-            <form method="_post" action="#" class="contact-form">
+            <form method="post" action="#" class="contact-form">
                 <!-- name -->
                 <div class="row">
                     <!-- the row was divided into two  -->
@@ -395,7 +409,7 @@
                     </div>
                     <!-- col 2 -->
                     <div class="col span-2-of-3">
-                        <input type="email" name="email" id="name" placeholder="Your email" required>
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
                     </div>
                 </div>
                 <div class="row">
@@ -427,7 +441,7 @@
                         <label for="message">Drop us a line</label>
                     </div>
                     <div class="col span-2-of-3">
-                        <textarea name="message" placeholder="Your message"></textarea>
+                        <textarea name="message" id="message" placeholder="Your message"></textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -495,7 +509,7 @@
         </div>
     </footer>
 
-    
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -508,6 +522,21 @@
     <script src="vendors/js/jquery.waypoints.min.js"></script>
 
     <script src="resources/js/script.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151695738-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-151695738-1');
+    </script>
+
 
 
 </body>
