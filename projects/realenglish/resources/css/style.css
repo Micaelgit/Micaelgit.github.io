@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-size: 16px;
+    letter-spacing: 10px;
+    margin: 20px;
+    color: #fff;
+    ;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    width: 1250px;
+    margin: auto;
+}
+
+.header {
+    background-image: linear-gradient(to right, #f85032, #e73727, #e73727fa) /*url(img/usflagb.jpeg)*/;
+    height: 95vh;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    background-size: contain;
+    background-position: top;
+}
+
+.nav__main {
+    float: left;
+    list-style-type: none;    
+    margin-top: 10px;
+}
+
+.nav__main li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav__main li a:link,
+.nav__main li a:visited {
+    text-decoration: none;
+    color: #ebebeb;
+    font-size: 80%;
+    letter-spacing: 4px;
+    border: 1px solid #ebebeb;
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: transparent;
+    transition: border .1s;
+    /* shadow: -10px 3px 10px rgb(255, 255, 255);
+    text-shadow: 0 3px 3px rgb(255, 255, 255); */
+}
+
+.nav__main li a:hover,
+.nav__main li a:active {
+    text-decoration: none;
+    color: #51dcff;
+    font-size: 80%;
+    letter-spacing: 4px;
+    border: 1px solid #ebebeb;
+    border-radius: 100px;
+    padding: 10px 15px;
+    
+}
+
+.hero__textbox {
+    
+}
+
+.header h1 {
+    font-weight: 300;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 10px;
+    font-size: 200%;
+}
+
+.header h2 {
+    font-weight: 300;
+    position: absolute;
+    top: 50.07%;
+    left: 30.47%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 26.5px;
+    font-size: 100%;
+}
+
+.btn__hero:link,
+.btn__hero:visited {
+    font-weight: 300;
+    position: absolute;
+    top: 70.07%;
+    left: 50.47%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    border: 1.5px solid #999;
+    border-radius: 100px;
+    padding: 20px 15px;
+    background: #efefef;
+    letter-spacing: 5px;
+    transition: .6s;
+    
+
+}
+
+.btn__hero:hover,
+.btn__hero:active {
+    font-weight: 300;
+    position: absolute;
+    top: 70.07%;
+    left: 50.47%;
+    font-size: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 100%;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #ebebeb;
+    border-radius: 100px;
+    padding: 20px 15px;
+    background: #f85032;
+    letter-spacing: 5px;
+
+}

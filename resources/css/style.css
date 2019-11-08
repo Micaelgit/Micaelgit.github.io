@@ -187,15 +187,16 @@ header {
     /* background: #c7c4c4; */
     background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url(img/stone.png);
     height: 100vh;
-    color: #999;
+    color: rgb(231, 225, 225);
 }
 
 .plan-box {
-    background-color: #555;
+    background-color: rgb(175, 175, 175);
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
     box-shadow: 0 4px 10px #727272;
+    
 }
 
 .plan-box div {
@@ -204,9 +205,10 @@ header {
 }
 
 .plan-box div:first-child {
-    background-color: #e9d9c3;
+    background-color: #dbdbdb;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    color: #cf6d17;
 }
 
 .plan-box div:last-child {
