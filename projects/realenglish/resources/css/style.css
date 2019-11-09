@@ -115,7 +115,8 @@ section {
  ----------------------------------------------- */
 
 .header {
-    background-image: linear-gradient(to right, #f85032, #e73727, #e73727fa) /*url(img/usflagb.jpeg)*/;
+    /* background-image: linear-gradient(to right, #f85032, #e73727, #e73727fa) /*url(img/usflagb.jpeg) */
+    background-image: linear-gradient(to right, #f85032, #e73727) /*url(img/usflagb.jpeg)*/;
     height: 95vh;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     background-size: contain;
@@ -213,7 +214,7 @@ section {
 
 .cards__papo-1 {
     /* background-image:  linear-gradient( rgb(243, 68, 15),rgb(243, 68, 15), rgb(65, 87, 128)); */
-    background: rgb(243, 68, 15);
+    background-image: linear-gradient(to bottom, #e73727, #f85032) /*url(img/usflagb.jpeg)*/;
     padding: 40px 10px;
     border-radius: 7px;
     height: 400px;
@@ -227,7 +228,7 @@ section {
 }
 
 .cards__papo-2 {
-    background: rgb(243, 68, 15);
+    background-image: linear-gradient(to bottom, #e73727, #f85032) /*url(img/usflagb.jpeg)*/;
     padding: 40px 10px;
     border-radius: 7px;
     height: 400px;
@@ -239,12 +240,12 @@ section {
 }
 
 .cards__papo-3 {
-    background: rgb(243, 68, 15);
+    background-image: linear-gradient(to bottom, #e73727, #f85032) /*url(img/usflagb.jpeg)*/;
     padding: 40px 10px;
     border-radius: 7px;
     height: 400px;
     width: 25%;
-    box-shadow: 0 10px 10px 0px rgb(15, 48, 119);
+    box-shadow: 0 10px 30px 0px rgb(15, 48, 119);
     display: flex;
     align-items: center;
     justify-content: center;
