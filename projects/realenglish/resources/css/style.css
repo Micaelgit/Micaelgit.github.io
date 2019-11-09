@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 
+/* color: #436db1; DARK BLUE */
+
+/* -----------------------------------------------
+    BASIC SETUP
+ ----------------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,9 +24,95 @@ body {
 }
 
 .row {
-    width: 1250px;
+    width: 1220px;
     margin: auto;
 }
+
+/* -----------------------------------------------
+    REUSABLE CODE
+ ----------------------------------------------- */
+
+
+ .btn__hero:link,
+ .btn__hero:visited {
+     font-weight: 300;
+     position: absolute;
+     top: 70.07%;
+     left: 50.47%;
+     transform: translate(-50%, -50%);
+     font-size: 100%;
+     text-decoration: none;
+     color: #222;
+     
+     font-weight: 700;
+     border: 1.5px solid #999;
+     border-radius: 100px;
+     padding: 20px 15px;
+     background: #efefef;
+     
+     letter-spacing: 5px;
+     transition: .6s;
+     text-transform: uppercase;
+     
+ 
+ }
+ 
+ .btn__hero:hover,
+ .btn__hero:active {
+     font-weight: 300;
+     position: absolute;
+     top: 70.07%;
+     left: 50.47%;
+     font-size: 100%;
+     transform: translate(-50%, -50%);
+     font-size: 100%;
+     text-decoration: none;
+     color: #fff;
+     font-weight: 700;
+     border: 1px solid #ebebeb;
+     border-radius: 100px;
+     padding: 20px 15px;
+     background: #f85032;
+     letter-spacing: 5px;
+ 
+ }
+
+/* -----------------------------------------------
+    HEADINGS
+ ----------------------------------------------- */
+
+h2 {
+    font-weight: 300;
+    font-size: 400%;
+    text-align: center;
+    color: #436db1;
+
+    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* -----------------------------------------------
+    HEADER
+ ----------------------------------------------- */
 
 .header {
     background-image: linear-gradient(to right, #f85032, #e73727, #e73727fa) /*url(img/usflagb.jpeg)*/;
@@ -52,8 +144,6 @@ body {
     padding: 10px 15px;
     border: transparent;
     transition: border .1s;
-    /* shadow: -10px 3px 10px rgb(255, 255, 255);
-    text-shadow: 0 3px 3px rgb(255, 255, 255); */
 }
 
 .nav__main li a:hover,
@@ -68,9 +158,7 @@ body {
     
 }
 
-.hero__textbox {
-    
-}
+
 
 .header h1 {
     font-weight: 300;
@@ -92,43 +180,76 @@ body {
     font-size: 100%;
 }
 
-.btn__hero:link,
-.btn__hero:visited {
+.header h3 {
     font-weight: 300;
     position: absolute;
-    top: 70.07%;
-    left: 50.47%;
+    top: 50.07%;
+    left: 30.47%;
     transform: translate(-50%, -50%);
+    letter-spacing: 26.5px;
     font-size: 100%;
-    text-decoration: none;
-    color: #222;
-    font-weight: 700;
-    border: 1.5px solid #999;
-    border-radius: 100px;
-    padding: 20px 15px;
-    background: #efefef;
-    letter-spacing: 5px;
-    transition: .6s;
+}
+
+
+
+/* -----------------------------------------------
+    PAPO
+ ----------------------------------------------- */
+
+.papo__reto {
+    height: 100vh;
+}
+
+
+.cards__papo {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+    font-size: 110%;
+    line-height: 200%;
+    margin-top: 50px;
     
-
 }
 
-.btn__hero:hover,
-.btn__hero:active {
-    font-weight: 300;
-    position: absolute;
-    top: 70.07%;
-    left: 50.47%;
-    font-size: 100%;
-    transform: translate(-50%, -50%);
-    font-size: 100%;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    border: 1px solid #ebebeb;
-    border-radius: 100px;
-    padding: 20px 15px;
-    background: #f85032;
-    letter-spacing: 5px;
-
+.cards__papo-1 {
+    /* background-image:  linear-gradient( rgb(243, 68, 15),rgb(243, 68, 15), rgb(65, 87, 128)); */
+    background: rgb(243, 68, 15);
+    padding: 40px 10px;
+    border-radius: 7px;
+    height: 400px;
+    width: 25%;
+    box-shadow: 0 10px 30px 0px rgb(15, 48, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
+
+.cards__papo-2 {
+    background: rgb(243, 68, 15);
+    padding: 40px 10px;
+    border-radius: 7px;
+    height: 400px;
+    width: 25%;
+    box-shadow: 0 10px 30px 0px rgb(15, 48, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards__papo-3 {
+    background: rgb(243, 68, 15);
+    padding: 40px 10px;
+    border-radius: 7px;
+    height: 400px;
+    width: 25%;
+    box-shadow: 0 10px 10px 0px rgb(15, 48, 119);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+

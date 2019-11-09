@@ -21,7 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-.chapter {}
 
 /* ----------------------------------------------------------- */
 
@@ -50,7 +49,6 @@ h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     color: #555;
-    ;
     font-size: 240%;
     font-weight: 300;
     text-transform: uppercase;
