@@ -269,53 +269,12 @@ section {
 
 }
 
-
-/* -----------------------------------------------
-    REVIEWS
- ----------------------------------------------- */
-
-
-.section__reviews {
-    /* background-image: linear-gradient(to bottom right, #f03210, #f73a19ee, #f85032de, rgba(16, 39, 104, 0.879)), url(img/ellisst.jpg); */
-    /* background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.63), #000), url(img/ellisst.jpg); */
-    background-color: #0F1A20;
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: top;
-    border-radius: 4px;
-    padding-top: 30px;
-    display: block;
-    display: flex;
-    justify-content: center;
-
-
+.quote {
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: 130px  30px 20px 30px;
+    font-weight: bolder;
+    font-size: 150%;
 
 }
 
-.section__reviews h1 {
-    letter-spacing: 20px;
-    font-size: 200%;
-    font-weight: 300;
-    margin-top: 25px;
-
-}
-
-
-.section__reviews h1:after {
-    display: block;
-    height: 2px;
-    background-color: #ebd6c3;
-    content: " ";
-    width: 330px;
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-}
-
-.section__cinza {
-
-    height: 100vh;
-    background-color: rgb(228, 228, 228);
-}
