@@ -1,61 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To-Do List Generator</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Real English</title>
-    <link rel="stylesheet" href="resources/css/style.css">
-</head>
+    <!-- To-do List Form -->
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter a Category" />
+      <button type="submit">Create To-Do List</button>
+    </form>
 
-<body>
-    <header class="header">
-        <div class="row">
-            <nav class="nav__main">
-                <img src="" alt="" class="logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#pilares">Pilares</a></li>
-                    <li><a href="#">Planos</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-
-            <div class="hero__textbox">
-                <h1>Inglês sem enrolação </h1>
-                <h3>Express Yourself</h3>
-                <a href="#" class="btn__hero">quero falar inglês</a>
-            </div>
+    <!-- To-do List Container -->
+    <div id="todo-container">
+      <!-- Responsive Grid -->
+      <div class="todo-grid">
+        <!-- To-do List -->
+        <div class="todo-list">
+          <h2>Take action, get results.</h2>
+          <!-- <ul>
+            <li>
+              <input type="checkbox" />
+              <span></span>
+              <button class="delete-task"></button>
+            </li>
+            <li>
+              <input type="checkbox" />
+              <span></span>
+              <button class="delete-task"></button>
+            </li>
+          </ul>
+          <button class="add-task"></button>
+          <button class="move-up"></button>
+          <button class="move-down"></button> -->
         </div>
-    </header>
-
-    <section class="section__pilares" id="pilares">
-        <h2>Pilares</h2>
-        
-        <div class="row">
-            <div class="pilares__cards">
-                <div class="pilares__cards-1">
-                    <h4>100% Digital</h4>
-                </div>
-                <div class="pilares__cards-2">
-                    <h4>Foco em estudantes Brasileiros</h4>
-                </div>
-                <div class="pilares__cards-3">
-                    <h4>Vamos Mudar seu Mindset</h4>
-                </div>
-            </div>
-            <blockquote class="quote"> 
-                    <h4 style="color: black;">The best way to predict the future is to create it.</h4>            
-                    <cite style="color: black;">– Peter Drucker</cite> 
-            </blockquote>    
-            
-        </div>
-
-    </section>
-
-    
-
-</body>
-
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
