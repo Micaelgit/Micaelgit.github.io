@@ -1,90 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do List Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To-Do List Generator</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="vendors/css/grid.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
+    <!-- To-do List Form -->
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter a Category" />
+      <button type="submit">Create To-Do List</button>
+    </form>
 
-<body>
-    <header>
-        <nav>
-            <div class="row">
-                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo">
-                <ul class="main-nav">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-        <div class="row hero-text-box">
-            <h1>Micael Web Designer</h1>
-            <a class="btn btn-full" href="#projects">Projects</a>
-            <a class="btn btn-ghost" href="#">Github</a>
+    <!-- To-do List Container -->
+    <div id="todo-container">
+      <!-- Responsive Grid -->
+      <div class="todo-grid">
+        <!-- To-do List -->
+        <div class="todo-list">
+          <h2>Take action, get results.</h2>
+          <!-- <ul>
+            <li>
+              <input type="checkbox" />
+              <span></span>
+              <button class="delete-task"></button>
+            </li>
+            <li>
+              <input type="checkbox" />
+              <span></span>
+              <button class="delete-task"></button>
+            </li>
+          </ul>
+          <button class="add-task"></button>
+          <button class="move-up"></button>
+          <button class="move-down"></button> -->
         </div>
-    </header>
-    <section class="chapter-projects" id="projects">
-        <div class="row">
-            <h2>Projects</h2>
-        </div>
-        <div class="row">
-
-            <!-- row 1 with projects -->
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Omnifood</h3>
-
-                    </div>
-                    <div>
-                        <img src="resources/css/img/omnifood.png" alt="" width="100%">
-                    </div>
-                    <div>
-                        <a href="projects/omnifood/index.html" target="_blank" class="btn btn-full">Check the Project</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col span-1-of-3">
-                <div class="plan-box">
-                    <div>
-                        <h3>Real English</h3>
-
-                    </div>
-                    <div>
-                        <img src="resources/img/realenglish.png" alt="" width="100%">
-                    </div>
-                    <div>
-                        <a href="projects/realenglish/index.html" target="_blank" class="btn btn-full">Check the Project</a>
-                    </div>
-                </div>
-            </div>
-                <div class="plan-box">
-                   
-            </div>
-
-            <!-- end of row 1 with projects -->
-            
-
-        </div>
-
-
-    </section>
-</body>
-
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
